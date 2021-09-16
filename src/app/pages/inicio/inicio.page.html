@@ -1,13 +1,14 @@
 <ion-header>
   <ion-toolbar color="mycolor">
+    <ion-img id="logo" src="/assets/icono.png"></ion-img>
     <ion-title>InfoGaming</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
-
-
+<br><br>
+  <ion-img src="/assets/naoto.gif"></ion-img>
+<br><br>
   <ion-list>
     <ion-item *ngFor="let c of componentes"
               [routerLink]="c.redirecTo"
