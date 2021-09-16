@@ -1,5 +1,5 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="mycolor">
     <ion-buttons slot="start">
       <ion-back-button 
           defaultHref="/"
@@ -15,10 +15,6 @@
 
   
 <form #formulario="ngForm" (ngSubmit) ="onSubmit()">
-
-  <ion-list-header>
-    <ion-label>Formulario Válido: {{formulario.valid}} </ion-label>
-  </ion-list-header>
 
     <ion-item>
       <ion-label>Nombre: </ion-label>
